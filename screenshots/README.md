@@ -1,2 +1,2 @@
 # Screenshots
-Application screenshots and UI previews for the Progresso AI Fitness Analytics Platform.
+Application screenshots and UI previews for the NewProgresso AI Fitness Analytics Platform.
