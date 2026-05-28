@@ -1,0 +1,24 @@
+{
+  "name": "NutritionGoals",
+  "type": "object",
+  "properties": {
+    "calorie_goal": {
+      "type": "number"
+    },
+    "protein_goal": {
+      "type": "number"
+    },
+    "carb_goal": {
+      "type": "number"
+    },
+    "fat_goal": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "calorie_goal",
+    "protein_goal",
+    "carb_goal",
+    "fat_goal"
+  ]
+}
