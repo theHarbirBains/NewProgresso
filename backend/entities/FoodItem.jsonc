@@ -1,0 +1,53 @@
+{
+  "name": "FoodItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "calories_per_serving": {
+      "type": "number"
+    },
+    "protein_per_serving": {
+      "type": "number"
+    },
+    "carbs_per_serving": {
+      "type": "number"
+    },
+    "fat_per_serving": {
+      "type": "number"
+    },
+    "serving_size": {
+      "type": "number"
+    },
+    "serving_unit": {
+      "type": "string",
+      "enum": [
+        "g",
+        "ml",
+        "oz",
+        "scoop",
+        "cup",
+        "piece",
+        "tbsp",
+        "tsp",
+        "slice",
+        "serving"
+      ]
+    },
+    "is_favorite": {
+      "type": "boolean",
+      "default": false
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "calories_per_serving",
+    "protein_per_serving",
+    "carbs_per_serving",
+    "fat_per_serving"
+  ]
+}
