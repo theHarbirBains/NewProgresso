@@ -1,0 +1,15 @@
+{
+  "name": "WorkoutSplit",
+  "type": "object",
+  "properties": {
+    "days": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "days"
+  ]
+}
